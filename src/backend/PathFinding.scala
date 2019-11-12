@@ -5,12 +5,12 @@ import backend.physics.PhysicsVector
 object PathFinding {
 
   def findPath(start: GridLocation, end: GridLocation, map: List[List[MapTile]]): List[GridLocation] = {
-    null
+    List()
   }
 
 
   def getVelocity(path: List[GridLocation], currentLocation: PhysicsVector): PhysicsVector = {
-    null
+    new PhysicsVector(0.0, 0.0)
   }
 
 }
